@@ -1,0 +1,61 @@
+# Xcode
+#
+# gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
+
+## User settings
+xcuserdata/
+
+## Obj-C/Swift specific
+*.hmap
+
+## App packaging
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+## Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+## Build artifacts
+DerivedData/
+build/
+
+# Swift Package Manager
+.build/
+# Uncomment if you don’t want to check in SPM dependencies
+# Packages/
+# Package.pins
+# Package.resolved
+# *.xcodeproj
+# .swiftpm
+
+# CocoaPods
+# We recommend against ignoring Pods/, but if you prefer not to commit them:
+Pods/
+Podfile.lock
+# Ignore workspace if you want to regenerate it
+# *.xcworkspace
+
+# Carthage
+Carthage/Build/
+# Uncomment to ignore full dependencies
+# Carthage/Checkouts/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output/
+
+# General
+*.DS_Store
+*.swp
+*.lock
+
+# JetBrains / AppCode
+.idea/
+*.iml
+
+# Environment / Config
+*.env
